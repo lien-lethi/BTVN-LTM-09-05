@@ -67,7 +67,7 @@ DWORD WINAPI ClientThread(LPVOID lpParam)
 		if (ret == 2)
 		{
 			sprintf(tmp, "%s %s", user, pass);
-			FILE* f = fopen("D:\\LTU16\\lập trình mạng\\test\\user.txt", "r");
+			FILE* f = fopen("C:\\test\\user.txt", "r");
 			while (!feof(f))
 			{
 				fgets(fbuf, sizeof(fbuf), f);
